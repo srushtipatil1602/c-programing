@@ -5,31 +5,25 @@ class student
 {
 public:
     float a, b, addition, subtraction;
-
-    // Constructor
     student()
     {
         cout << "Enter two numbers: ";
         cin >> a >> b;
     }
-
     void add()
     {
         addition = a + b;
     }
-
     void sub()
     {
         subtraction = a - b;
     }
-
-    void print()
+void print()
     {
         cout << "Addition = " << addition << endl;
         cout << "Subtraction = " << subtraction << endl;
     }
 };
-
 int main()
 {
     student s;
